@@ -23,7 +23,7 @@ setup(
         '' : [ '*.gif', '*.png', '*.conf', '*.mtz', '*.machine' ] # list of resources
     },
     install_requires=[
-        'canari',
+        'canari == 1.1',
         'requests',
         'tldextract',
     ],
